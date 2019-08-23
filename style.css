@@ -1,8 +1,25 @@
 
 
 body{
+    background-color: lavender
+    text-align_ 100%
+    line-height: 100vh
+    margin: 0
+
 }
 
 button{ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    vertical-align: 0%
+    width: 80px
+    height: 400px
+    background-color: #ffffff
+    color: black;
+    }
+
+    button.sharp{
+        width: 50px;
+        background-color: #000000
+        color: #ffffff
+
     }
