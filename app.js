@@ -1,5 +1,10 @@
-alert("dude js is working");
 
-let btnDo = document.getElementById( 'btDo' );
+const buttons = document.querySelectorAll('button');
 
-btnDo.addEventListener('click', ()=>{alert('holo')});
+const func =() =>{
+    console.log(event.target.dataset.note);
+}
+
+buttons.forEach(
+    button => button.addEventListener('click', playnote)
+);
